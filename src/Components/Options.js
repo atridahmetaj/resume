@@ -24,7 +24,7 @@ export const Options = () => {
   }, [theme, snow, icon]);
 
   const SnowEffect = () =>
-    snow && theme === "dark" && <Particles params={ParticlesParams} />;
+      snow && theme === "dark" && <Particles params={ParticlesParams} />;
 
   const _enableSnow = () => setSnow(!snow);
   const _toggleTheme = () => {
@@ -33,22 +33,22 @@ export const Options = () => {
   };
 
   return (
-    <div className="home__options">
-      {theme === "dark" && (
+      <div className="home__options" id="resume__options">
+        {theme === "dark" && (
+            <i
+                className="bx bx-cloud-snow enable-snow"
+                title="Activate Snow"
+                id="snow-button"
+                onClick={_enableSnow}
+            />
+        )}
+        <SnowEffect />
         <i
-          className="bx bx-cloud-snow enable-snow"
-          title="Activate Snow"
-          id="snow-button"
-          onClick={_enableSnow}
+            className={`bx ${icon} change-theme`}
+            title="Toggle Theme"
+            id="theme-button"
+            onClick={_toggleTheme}
         />
-      )}
-      <SnowEffect />
-      <i
-        className={`bx ${icon} change-theme`}
-        title="Toggle Theme"
-        id="theme-button"
-        onClick={_toggleTheme}
-      />
-    </div>
+      </div>
   );
 };

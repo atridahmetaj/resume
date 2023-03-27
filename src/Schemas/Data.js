@@ -16,10 +16,10 @@ export const Data = {
     technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
-      "Java, Spring Boot, C#, .NET, Android Java,",
+      "Java, Spring Boot, Android Java, Angular, React, Polymerjs, Bash",
       "Spring Data JPA, Hibernate, Entity Framework",
       "JUnit testing, Integration testing, Mockito",
-      "Oracle 19c, MySQL, MariaDB, SQL Server, SQLite, Time series, Postgres",
+      "Oracle 19c, MySQL, MariaDB, SQL Server, Time series, Postgres",
       "Flutter",
       "IntelliJ Idea, Eclipse, Visual Studio",
       "Scrum, Confluence, Jira, Bitbucket, Docusaurus",
