@@ -5,6 +5,8 @@ You can easily create your fully beautiful CV / Resume by passing necessary prop
 - Light / Dark mode 🌗
 - Snowflakes mode ❄️
 
+[Live Demo](https://resume-atridahmetaj.vercel.app)
+
 ## Getting Started 👋
 ### Built With 🛠️
 
