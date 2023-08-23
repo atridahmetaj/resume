@@ -62,8 +62,7 @@ export const Data = {
         period: "Nov. 2021 – Present",
         company: "OAZ",
         description: [
-          "Running a startup with a friend that focuses on developing three separate e-commerce applications.",
-          "One of the applications, Oaz Express, has been released on the AppStore and PlayStore (only visible in Albania) and coordinates businesses with their postal company.",
+          "Oaz Express, has been released on the AppStore and PlayStore (only visible in Albania) and coordinates businesses with postal company.",
           "Primary responsibilities include communication with clients and users, performing business analysis, cooperating with my partner to share ideas, implementing and delivering the application."
         ],
       },
